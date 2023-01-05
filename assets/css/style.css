@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+:root {
+    --fonts: 'Titillium Web', sans-serif;
+}
+
+.button {
+    display: block;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: var(--fonts);
+    width: 293px;
+    height: 70px;
+    border-radius: 4px;
+    border: none;
+    margin: 60px auto 0 auto;
+}
+
+/* header css start */
+
+header {
+    background-color: #87509c;
+    padding-bottom: 140px;
+}
+
+header nav {
+    padding-top: 55px;
+}
+
+header nav ul {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 25px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+header nav ul li a {
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header.active,
+header nav ul li a:hover {
+    background-color: #643a79;
+    border-radius: 4px;
+}
+
+.header_body h1 {
+    font-size: 42px;
+    line-height: 49px;
+    color: #f7f3ea;
+    font-weight: 700;
+    font-family: var(--fonts);
+    text-align: center;
+    margin-top: 140px;
+}
+
+.header_body button {
+    background-color: #eb7d4b;
+    border-bottom: 4px solid c86a40;
+}
+
+/* .service css start */
+
+.service {
+    background-color: #17c2a4;
+    padding-bottom: 121px;
+}
+
+.service h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: var(--fonts);
+    text-align: center;
+    padding-top: 147px;
+    padding-bottom: 47px;
+}
+
+.service h3 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: var(--fonts);
+    text-align: center;
+    padding-bottom: 76px;
+}
+
+.boxs {
+    text-align: center;
+}
+
+.boxs div {
+    display: inline-block;
+}
+
+.boxs div h2 {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: var(--fonts);
+    text-align: center;
+    padding-bottom: 12px;
+
+}
+
+.boxs div p {
+    width: 204px;
+    height: 192px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: var(--fonts);
+    text-align: center;
+}
+
+.boxs div img {
+    padding-bottom: 52px;
+}
+
+/* .meet css start */
+
+.meet {
+    background-color: #e7f1f8;
+    padding-bottom: 125px;
+}
+
+.meet h1 {
+    font-size: 41px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #3c4761;
+    font-weight: 700;
+    font-family: var(--fonts);
+    text-align: center;
+    padding-top: 147px;
+    padding-bottom: 67px;
+}
+
+
+
+.meet h3 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    font-weight: 400;
+    font-family: var(--fonts);
+    text-align: center;
+    padding-bottom: 43px;
+}
+
+.names h2{
+    color: #3c4761;
+}
+
+.boxs div h4 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #30bae7;
+    font-weight: 400;
+    font-family: var(--fonts);
+    text-align: center;
+    padding-bottom: 23px;
+}
+
+/* .get css start */
+
+.get {
+    background-color: #3c5499;
+    /* margin: auto; */
+    padding-bottom: 115px;
+}
+
+.get h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: var(--fonts);
+    text-align: center;
+    padding-top:  115px;
+    padding-bottom: 43px;
+}
+
+.get h3 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Titillium Web";
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+
+
+
+.get form input {
+    width: 414px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    background-color: #273a71;
+    margin-bottom: 25px;
+}
+
+.get form textarea {
+    display: block;
+    width: 860px;
+    height: 200px;
+    border-radius: 4px;
+    border: none;
+    background-color: #273a71;
+}
+
+.get form input ::placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: var(--fonts);
+}
+
+.get button {
+    background-color: #30bae7;
+    border-bottom: 4px solid #299ec5;
+}
+
+/* footer css start */
+footer {
+    background-color: #344b8e;
+    padding-top: 28px;
+    padding-bottom: 60px;
+}
+
+footer nav ul {
+    float: inline-start;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-left: 56px;
+}
+
+footer nav ul li a {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: var(--fonts);
+    text-align: center;
+    text-decoration: none;
+
+}
+
+footer.twit,footer nav ul li a:hover{
+    color: #17c2a4;
+}
+
+
+header.active,
+header nav ul li a:hover {
+    background-color: #643a79;
+    border-radius: 4px;
+}
