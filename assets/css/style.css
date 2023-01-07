@@ -63,11 +63,13 @@ header nav ul li a {
     padding: 10px 15px;
 }
 
-header.active,
+header .active,
 header nav ul li a:hover {
     background-color: #643a79;
     border-radius: 4px;
 }
+
+
 
 .header_body h1 {
     font-size: 42px;
@@ -99,8 +101,17 @@ header nav ul li a:hover {
     font-weight: 700;
     font-family: var(--fonts);
     text-align: center;
-    padding-top: 147px;
-    padding-bottom: 47px;
+    padding-top: 112px;
+    padding-bottom: 21px;
+}
+
+.service hr {
+    opacity: 0.149;
+    width: 87px;
+    height: 4px;
+    background-color: #000000;
+    margin: auto;
+    margin-bottom: 21px;
 }
 
 .service h3 {
@@ -120,6 +131,7 @@ header nav ul li a:hover {
 
 .boxs div {
     display: inline-block;
+    margin: 0 30px;
 }
 
 .boxs div h2 {
@@ -147,8 +159,12 @@ header nav ul li a:hover {
     text-align: center;
 }
 
+.text-width {
+    width: 180px !important;
+}
+
 .boxs div img {
-    padding-bottom: 52px;
+    margin-bottom: 52px;
 }
 
 /* .meet css start */
@@ -167,10 +183,18 @@ header nav ul li a:hover {
     font-family: var(--fonts);
     text-align: center;
     padding-top: 147px;
-    padding-bottom: 67px;
+    margin-bottom: 20px;
 }
 
-
+.meet hr {
+    opacity: 0.749;
+    width: 87px;
+    height: 4px;
+    background-color: #bdd1df;
+    margin: auto;
+    margin-bottom: 21px;
+    border: none;
+}
 
 .meet h3 {
     font-size: 18px;
@@ -183,8 +207,16 @@ header nav ul li a:hover {
     padding-bottom: 43px;
 }
 
-.names h2{
-    color: #3c4761;
+.names h2 {
+    color: #3c4761 !important;
+}
+
+.names img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .boxs div h4 {
@@ -198,11 +230,165 @@ header nav ul li a:hover {
     padding-bottom: 23px;
 }
 
+.social a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #bdd1df;
+    position: relative;
+}
+
+.social i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+/* we css start */
+
+.we {
+    background-color: #ffffff;
+    padding-bottom: 121px;
+}
+
+.we h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #3c4761;
+    font-weight: 700;
+    font-family: var(--fonts);
+    text-align: center;
+    padding-top: 112px;
+}
+
+.we hr {
+    width: 87px;
+    height: 4px;
+    background-color: #dfe8ed;
+    margin: 19px auto 21px auto;
+    border: none;
+
+}
+
+.we h3 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    font-weight: 400;
+    font-family: var(--fonts);
+    text-align: center;
+    margin-bottom: 82px;
+}
+
+/* our css start */
+
+.our {
+    background-color: #ffdd99;
+    padding-bottom: 107px;
+}
+
+.our h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #393939;
+    font-weight: 700;
+    font-family: var(--fonts);
+    text-align: center;
+    padding-top: 121px;
+}
+
+.our hr {
+    width: 87px;
+    height: 4px;
+    background-color: #e5c37f;
+    margin: 13px auto 20px auto;
+    border: none;
+}
+
+.our h3 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #393939;
+    font-weight: 400;
+    font-family: var(--fonts);
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.icon .active,
+.icon ul li a:hover {
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.icon .icons {
+    background-color: rgba(0, 0, 0, 0.0784313725490196);
+    border-radius: 4px;
+}
+
+.icon ul {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 59px;
+
+}
+
+.icon ul li {
+    display: inline-block;
+    margin-right: 11px;
+
+}
+
+.icon ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #393939;
+    font-weight: 400;
+    font-family: var(--fonts);
+    padding: 9px 15px;
+}
+
+.comp {
+    text-align: center;
+}
+
+.comp div {
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.comp h3 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #393939;
+    font-weight: 400;
+    font-family: var(--fonts);
+    margin-top: 29px;
+}
+
+.comp button {
+    background-color: #17c2a4;
+    border-bottom: 4px solid #14a58c;
+}
+
+
+
+
 /* .get css start */
 
 .get {
     background-color: #3c5499;
-    /* margin: auto; */
     padding-bottom: 115px;
 }
 
@@ -214,9 +400,18 @@ header nav ul li a:hover {
     font-weight: 700;
     font-family: var(--fonts);
     text-align: center;
-    padding-top:  115px;
-    padding-bottom: 43px;
+    padding-top: 115px;
+    padding-bottom: 16px;
 }
+
+.get hr {
+    width: 87px;
+    height: 4px;
+    margin: 13px auto 20px auto;
+    border: none;
+    background-color: #273a71;
+}
+
 
 .get h3 {
     font-size: 18px;
@@ -229,7 +424,9 @@ header nav ul li a:hover {
     padding-bottom: 75px;
 }
 
-
+.get form {
+    text-align: center;
+}
 
 
 .get form input {
@@ -238,16 +435,18 @@ header nav ul li a:hover {
     border-radius: 4px;
     border: none;
     background-color: #273a71;
-    margin-bottom: 25px;
+    margin: 25px 15px;
 }
 
 .get form textarea {
     display: block;
+    margin: auto;
     width: 860px;
     height: 200px;
     border-radius: 4px;
     border: none;
     background-color: #273a71;
+    resize: none;
 }
 
 .get form input ::placeholder {
@@ -291,13 +490,7 @@ footer nav ul li a {
 
 }
 
-footer.twit,footer nav ul li a:hover{
+footer .twit,
+footer nav ul li a:hover {
     color: #17c2a4;
-}
-
-
-header.active,
-header nav ul li a:hover {
-    background-color: #643a79;
-    border-radius: 4px;
 }
